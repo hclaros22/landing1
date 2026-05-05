@@ -74,14 +74,14 @@
       <p>Each puppy has a unique personality—playful, affectionate, and raised in a loving home.</p>
     </div>
     <div class="grid">
-      <div class="card"><img src="rio_landing_assets/puppy1.jpeg" alt="Portuguese Water Dog puppy"><h3>Rio</h3><span class="tag">Available</span></div>
-      <div class="card"><img src="rio_landing_assets/puppy2.jpeg" alt="Portuguese Water Dog puppy"><h3>Leon Messi</h3><span class="tag">Available</span></div>
-      <div class="card"><img src="rio_landing_assets/puppy3.jpeg" alt="Portuguese Water Dog puppy"><h3>Puppy Name</h3><span class="tag">Available</span></div>
-      <div class="card"><img src="rio_landing_assets/puppy4.jpeg" alt="Portuguese Water Dog puppy"><h3>Puppy Name</h3><span class="tag">Available</span></div>
-      <div class="card"><img src="rio_landing_assets/puppy5.jpeg" alt="Portuguese Water Dog puppy"><h3>Puppy Name</h3><span class="tag">Available</span></div>
-      <div class="card"><img src="rio_landing_assets/puppy6.jpeg" alt="Portuguese Water Dog puppy"><h3>Puppy Name</h3><span class="tag">Available</span></div>
-      <div class="card"><img src="rio_landing_assets/puppy7.jpeg" alt="Portuguese Water Dog puppy"><h3>Puppy Name</h3><span class="tag">Available</span></div>
-      <div class="card"><img src="rio_landing_assets/puppy8.jpeg" alt="Portuguese Water Dog puppy"><h3>Puppy Name</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="rio.png alt="Portuguese Water Dog puppy"><h3>Rio</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="leonmessi.png" alt="Portuguese Water Dog puppy"><h3>Leon Messi</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="amora.jpeg" alt="Portuguese Water Dog puppy"><h3>amora</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="dulce.jpeg" alt="Portuguese Water Dog puppy"><h3>Dulce</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="bruno.jpeg" alt="Portuguese Water Dog puppy"><h3>Bruno</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="toro.png" alt="Portuguese Water Dog puppy"><h3>toro</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="Perla.png" alt="Portuguese Water Dog puppy"><h3>Perla</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="samba.jpeg" alt="Portuguese Water Dog puppy"><h3>Samba</h3><span class="tag">Available</span></div>
     </div>
   </section>
 
@@ -122,7 +122,7 @@
     <p>These puppies are ready for loving homes. Message us today to learn more.</p>
     <div class="buttons" style="justify-content:center;">
       <a class="btn btn-green" href="https://wa.me/1XXXXXXXXXX">Message on WhatsApp</a>
-      <a class="btn btn-blue" href="tel:+1XXXXXXXXXX">Call or Text Now</a>
+      <a class="btn btn-blue" href="tel:+17037865363">Call or Text Now</a>
     </div>
   </section>
 
