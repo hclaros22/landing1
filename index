@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rio Portuguese Water Dogs</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, Helvetica, sans-serif; color: #17324d; background: #f7fbff; line-height: 1.6; }
+    a { text-decoration: none; }
+    .hero { min-height: 680px; background: linear-gradient(90deg, rgba(247,251,255,.94) 0%, rgba(247,251,255,.82) 42%, rgba(247,251,255,.1) 72%), url('rio_landing_assets/hero.png') right center/cover no-repeat; display: flex; align-items: center; padding: 70px 7%; }
+    .hero-content { max-width: 560px; }
+    .eyebrow { color: #1d7aa3; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+    h1 { font-size: clamp(44px, 7vw, 78px); line-height: .98; color: #15395b; margin-bottom: 18px; }
+    h1 span { display:block; color:#2d92b8; }
+    .hero h2 { font-size: clamp(24px, 3vw, 36px); margin-bottom: 18px; color: #234b6d; }
+    .hero p { font-size: 20px; margin-bottom: 26px; color:#31536e; }
+    .buttons { display: flex; flex-wrap: wrap; gap: 14px; }
+    .btn { display:inline-block; padding: 15px 24px; border-radius: 999px; font-weight: 700; color:white; box-shadow: 0 8px 20px rgba(0,0,0,.15); }
+    .btn-blue { background:#15395b; }
+    .btn-green { background:#25D366; }
+    section { padding: 70px 7%; }
+    .center { text-align:center; max-width: 760px; margin:0 auto 42px; }
+    .center h2 { font-size: 42px; color:#15395b; margin-bottom: 10px; }
+    .center p { font-size: 18px; color:#516b7f; }
+    .grid { display:grid; grid-template-columns: repeat(4, 1fr); gap: 24px; max-width: 1180px; margin: 0 auto; }
+    .card { background:white; border-radius: 22px; overflow:hidden; box-shadow: 0 12px 30px rgba(23,50,77,.12); text-align:center; }
+    .card img { width:100%; height: 260px; object-fit:cover; display:block; }
+    .card h3 { font-size: 22px; padding: 16px 10px 4px; color:#15395b; }
+    .tag { display:inline-block; margin-bottom:18px; padding: 6px 14px; border-radius:999px; background:#e8f6fb; color:#2d789c; font-weight:700; font-size:14px; }
+    .info { background:white; }
+    .two { display:grid; grid-template-columns: 1fr 1fr; gap: 36px; max-width: 1100px; margin:0 auto; }
+    .panel { background:#f0f8fc; padding:34px; border-radius:24px; box-shadow: 0 10px 24px rgba(23,50,77,.08); }
+    .panel h2 { font-size:32px; color:#15395b; margin-bottom:15px; }
+    .panel ul { list-style:none; }
+    .panel li { padding:8px 0; font-size:18px; }
+    .features { display:grid; grid-template-columns: repeat(4,1fr); gap:20px; max-width:1100px; margin:0 auto; }
+    .feature { background:white; padding:26px; border-radius:22px; text-align:center; box-shadow: 0 12px 28px rgba(23,50,77,.10); }
+    .feature div { font-size:36px; margin-bottom:10px; }
+    .feature h3 { color:#15395b; margin-bottom:8px; }
+    .cta { background:#15395b; color:white; text-align:center; }
+    .cta h2 { font-size:40px; margin-bottom:12px; }
+    .cta p { font-size:20px; margin-bottom:26px; color:#d9ecf5; }
+    footer { text-align:center; padding:28px; background:#0e2943; color:#d7e9f3; }
+    @media (max-width: 900px) { .hero { min-height:620px; background: linear-gradient(90deg, rgba(247,251,255,.94), rgba(247,251,255,.75)), url('rio_landing_assets/hero.png') right center/cover no-repeat; } .grid { grid-template-columns: repeat(2,1fr); } .two, .features { grid-template-columns:1fr; } }
+    @media (max-width: 560px) { section { padding: 52px 5%; } .hero { padding: 55px 5%; align-items:flex-start; } .grid { grid-template-columns:1fr; } .card img { height:330px; } .buttons { flex-direction:column; } .btn { text-align:center; } }
+  </style>
+</head>
+<body>
+<header style="position:relative; height:600px;">
+  <img src="top-banner.png" 
+       style="width:100%; height:100%; object-fit:cover;">
+
+  <div style="
+    position:absolute;
+    top:50%;
+    left:10%;
+    transform:translateY(-50%);
+    color:black;
+  ">
+    <h1 style="font-size:60px; margin:0;">
+      Portuguese Water Dog
+    </h1>
+    <h2 style="font-size:50px; font-style:italic; margin:0;">
+      puppies
+    </h2>
+  </div>
+</header>
+  </header>
+
+  <section>
+    <div class="center">
+      <h2>Our Puppies</h2>
+      <p>Each puppy has a unique personality—playful, affectionate, and raised in a loving home.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><img src="rio.png" alt="Portuguese Water Dog puppy"><h3>Rio</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="leonmessi.png" alt="Portuguese Water Dog puppy"><h3>Leon Messi</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="amora.jpeg" alt="Portuguese Water Dog puppy"><h3>amora</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="Dulce.png" alt="Portuguese Water Dog puppy"><h3>Dulce</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="bruno.png" alt="Portuguese Water Dog puppy"><h3>Bruno</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="toro.png" alt="Portuguese Water Dog puppy"><h3>toro</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="Perla.png" alt="Portuguese Water Dog puppy"><h3>Perla</h3><span class="tag">Available</span></div>
+      <div class="card"><img src="samba.png" alt="Portuguese Water Dog puppy"><h3>Samba</h3><span class="tag">Available</span></div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="two">
+      <div class="panel">
+        <h2>About the Puppies</h2>
+        <p>Our Portuguese Water Dog puppies are raised in a clean, loving home environment and are well-socialized from day one. They are known for being intelligent, loyal, affectionate, and wonderful family companions.</p>
+      </div>
+      <div class="panel">
+        <h2>Puppy Details</h2>
+        <ul>
+          <li><strong>Age:</strong> 8 weeks</li>
+          <li><strong>Breed:</strong> Portuguese Water Dog</li>
+          <li><strong>Temperament:</strong> Friendly, playful, affectionate</li>
+          <li><strong>Location:</strong> Northern Virginia</li>
+          <li><strong>Rehoming Fee:</strong> Contact for details</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="center">
+      <h2>Why Choose Our Puppies?</h2>
+      <p>We focus on care, cleanliness, socialization, and helping each puppy find the right home.</p>
+    </div>
+    <div class="features">
+      <div class="feature"><div>🏡</div><h3>Family Raised</h3><p>Raised with love in a home setting.</p></div>
+      <div class="feature"><div>🐾</div><h3>Well Socialized</h3><p>Comfortable around people and daily sounds.</p></div>
+      <div class="feature"><div>✨</div><h3>Healthy & Happy</h3><p>Clean, cared for, and full of personality.</p></div>
+      <div class="feature"><div>💙</div><h3>Great Companions</h3><p>Smart, loyal, and family-friendly.</p></div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Serious Inquiries Only</h2>
+    <p>These puppies are ready for loving homes. Message us today to learn more.</p>
+    <div class="buttons" style="justify-content:center;">
+      <a class="btn btn-green" href="https://wa.me/1XXXXXXXXXX">Message on WhatsApp</a>
+      <a class="btn btn-blue" href="tel:+17037865363">Call or Text Now</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Rio Portuguese Water Dogs • Northern Virginia
+  </footer>
+</body>
+</html>
