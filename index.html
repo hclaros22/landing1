@@ -24,7 +24,6 @@
       text-decoration: none;
     }
 
-    /* TOP BANNER */
     .hero-banner {
       position: relative;
       width: 100%;
@@ -70,7 +69,6 @@
       text-shadow: 0 2px 8px rgba(255, 255, 255, 0.55);
     }
 
-    /* BUTTONS ON BANNER */
     .hero-buttons {
       position: absolute;
       bottom: 38px;
@@ -99,7 +97,8 @@
       font-size: 17px;
     }
 
-    .btn:hover {
+    .btn:hover,
+    .puppy-btn:hover {
       transform: translateY(-2px);
       opacity: 0.92;
     }
@@ -149,7 +148,6 @@
       color: #516b7f;
     }
 
-    /* PUPPY GRID */
     .grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -164,6 +162,7 @@
       overflow: hidden;
       box-shadow: 0 12px 30px rgba(23,50,77,.12);
       text-align: center;
+      padding-bottom: 20px;
     }
 
     .card img {
@@ -195,7 +194,7 @@
 
     .tag {
       display: inline-block;
-      margin-bottom: 18px;
+      margin-bottom: 14px;
       padding: 6px 14px;
       border-radius: 999px;
       background: #e8f6fb;
@@ -204,7 +203,30 @@
       font-size: 14px;
     }
 
-    /* INFO SECTIONS */
+    .sold {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 7px 18px;
+      border-radius: 999px;
+      background: #ffe1e1;
+      color: #d00000;
+      font-weight: 900;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+
+    .puppy-btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: #15395b;
+      color: white;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 6px 16px rgba(0,0,0,.14);
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
     .info {
       background: white;
     }
@@ -239,7 +261,6 @@
       font-size: 18px;
     }
 
-    /* FEATURES */
     .features {
       display: grid;
       grid-template-columns: repeat(4,1fr);
@@ -266,7 +287,6 @@
       margin-bottom: 8px;
     }
 
-    /* CTA */
     .cta {
       background: #15395b;
       color: white;
@@ -291,7 +311,6 @@
       color: #d7e9f3;
     }
 
-    /* MOBILE */
     @media (max-width: 900px) {
       .hero-banner {
         height: 560px;
@@ -364,7 +383,6 @@
 
 <body>
 
-  <!-- TOP BANNER -->
   <header class="hero-banner">
     <img src="topbanner.png" alt="Portuguese Water Dog Puppies Banner">
 
@@ -380,7 +398,6 @@
     </div>
   </header>
 
-  <!-- PUPPIES -->
   <section>
     <div class="center">
       <h2>Our Puppies</h2>
@@ -388,12 +405,14 @@
     </div>
 
     <div class="grid">
+
       <div class="card">
         <img src="rio.png" alt="Rio Portuguese Water Dog puppy">
         <h3>Rio</h3>
         <p class="gender">Male</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="tag">Available</span><br>
+        <a class="puppy-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScYpvjC1mARADXZiFFA6w3xpZ-wPZT19Ezf7zz32_K6JAtzyA/viewform?usp=sharing&ouid=114766935617707044081" target="_blank">Apply for Rio</a>
       </div>
 
       <div class="card">
@@ -401,7 +420,7 @@
         <h3>Leon Messi</h3>
         <p class="gender">Male</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="sold">SOLD</span>
       </div>
 
       <div class="card">
@@ -409,7 +428,7 @@
         <h3>Amora</h3>
         <p class="gender">Female</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="sold">SOLD</span>
       </div>
 
       <div class="card">
@@ -417,7 +436,8 @@
         <h3>Dulce</h3>
         <p class="gender">Female</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="tag">Available</span><br>
+        <a class="puppy-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe-EOIp4sDBeDgHFgqE_DtnggyhKphaP97w3NA6CUIAyztskw/viewform?usp=sharing&ouid=114766935617707044081" target="_blank">Apply for Dulce</a>
       </div>
 
       <div class="card">
@@ -425,7 +445,8 @@
         <h3>Bruno</h3>
         <p class="gender">Male</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="tag">Available</span><br>
+        <a class="puppy-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf6M8zHU-JF96-Vt6FoCmSxglAGIRhheI5qBhrnx5nzaqEGFA/viewform?usp=sharing&ouid=114766935617707044081" target="_blank">Apply for Bruno</a>
       </div>
 
       <div class="card">
@@ -433,7 +454,8 @@
         <h3>Toro</h3>
         <p class="gender">Male</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="tag">Available</span><br>
+        <a class="puppy-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScKhcWvxLcKTyg8qmQ9YTrTLhflDsk8pDsPvU-yXZC5uACJTA/viewform?usp=publish-editor" target="_blank">Apply for Toro</a>
       </div>
 
       <div class="card">
@@ -441,7 +463,8 @@
         <h3>Perla</h3>
         <p class="gender">Female</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="tag">Available</span><br>
+        <a class="puppy-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJOUveFiemTMe6NtCZlHh1OipLkmAoZBBWwR9mWndBbh86w/viewform?usp=sharing&ouid=114766935617707044081" target="_blank">Apply for Perla</a>
       </div>
 
       <div class="card">
@@ -449,12 +472,13 @@
         <h3>Samba</h3>
         <p class="gender">Female</p>
         <p class="price">$2,000</p>
-        <span class="tag">Available</span>
+        <span class="tag">Available</span><br>
+        <a class="puppy-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc-yoVm-wcZHBkx66ejP1ok-smb5EEhvFVmOu5Cb4vPn60IvQ/viewform?usp=sharing&ouid=114766935617707044081" target="_blank">Apply for Samba</a>
       </div>
+
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section class="info">
     <div class="two">
       <div class="panel">
@@ -478,7 +502,6 @@
     </div>
   </section>
 
-  <!-- WHY CHOOSE US -->
   <section>
     <div class="center">
       <h2>Why Choose Our Puppies?</h2>
@@ -512,7 +535,6 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section class="cta">
     <h2>Serious Inquiries Only</h2>
     <p>These puppies are ready for loving homes. Contact us today to learn more.</p>
