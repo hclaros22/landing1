@@ -11,6 +11,24 @@
     gtag('config', 'AW-18159133812');
   </script>
 
+  <!-- Event snippet for Contact conversion page -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18159133812/pzlCCLfd4aOcEPTI-dJD',
+        'value': 1.0,
+        'currency': 'USD',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -554,8 +572,9 @@
       <a class="btn btn-pink" href="https://www.instagram.com/haleyclaros/" target="_blank">View Instagram</a>
       <a class="btn btn-facebook" href="https://www.facebook.com/profile.php?id=61566646012692" target="_blank">Facebook</a>
       <a class="btn btn-tiktok" href="https://www.tiktok.com/@xoxobarbie_?lang=en" target="_blank">TikTok</a>
-      <a class="btn btn-phone" href="tel:+17037865363">Call or Text</a>
-      <a class="btn btn-green" href="mailto:haleyclaros@gmail.com">Email Us</a>
+      <a class="btn btn-phone" href="tel:+17037865363" onclick="return gtag_report_conversion('tel:+17037865363');">Call or Text</a>
+      <a class="btn btn-green" href="mailto:haleyclaros@gmail.com" onclick="return gtag_report_conversion('mailto:haleyclaros@gmail.com');">Email Us</a>
+      
     </div>
   </section>
 
