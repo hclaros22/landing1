@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18159133812"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18159133812');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Rio Portuguese Water Dogs</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7fbff;
+      color: #17324d;
+      line-height: 1.6;
+    }
+
+    .contact-section {
+      max-width: 720px;
+      margin: 60px auto;
+      background: white;
+      padding: 42px;
+      border-radius: 24px;
+      box-shadow: 0 12px 30px rgba(23,50,77,.12);
+    }
+
+    h1 {
+      text-align: center;
+      color: #15395b;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      text-align: center;
+      color: #516b7f;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 18px;
+      margin-bottom: 6px;
+      color: #15395b;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #ccdce8;
+      border-radius: 12px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 26px;
+      padding: 16px;
+      background: #15395b;
+      color: white;
+      border: none;
+      border-radius: 999px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,.18);
+    }
+
+    button:hover {
+      opacity: 0.92;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #516b7f;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 22px;
+      color: #15395b;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    @media (max-width: 560px) {
+      .contact-section {
+        margin: 25px 14px;
+        padding: 28px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="contact-section">
+    <h1>Contact Us</h1>
+    <p class="intro">Interested in one of our Portuguese Water Dog puppies? Fill out the form below and we’ll contact you soon.</p>
+
+    <form action="https://formsubmit.co/haleyclaros@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="https://riopwd.com/thank-you.html">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Puppy Inquiry from Rio Portuguese Water Dogs">
+
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="Full Name" required>
+
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="Email" required>
+
+      <label for="phone">Phone Number *</label>
+      <input type="tel" id="phone" name="Phone Number" required>
+
+      <label for="puppy">Which puppy are you interested in?</label>
+      <select id="puppy" name="Puppy Interested In">
+        <option value="">Select a puppy</option>
+        <option value="Rio">Rio</option>
+        <option value="Dulce">Dulce</option>
+        <option value="Bruno">Bruno</option>
+        <option value="Toro">Toro</option>
+        <option value="Perla">Perla</option>
+        <option value="Samba">Samba</option>
+        <option value="Not sure yet">Not sure yet</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="Message" placeholder="Tell us about your home, family, or any questions you have."></textarea>
+
+      <button type="submit">Submit Puppy Inquiry</button>
+
+      <p class="note">Email and phone number are required so we can contact you about available puppies.</p>
+    </form>
+
+    <a class="back-link" href="index.html">← Back to puppies</a>
+  </section>
+
+</body>
+</html>
